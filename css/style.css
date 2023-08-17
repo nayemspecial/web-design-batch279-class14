@@ -1,0 +1,139 @@
+.header-area {
+    background-color: #333;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.slider-area{
+    background: url(../images/slider-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+.left {
+    width: 70%;
+    color: #fff;
+}
+
+.left h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.left p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #f2f2f2;
+}
+
+.blog-area {
+    background-color: #f3f3f3;
+    padding: 70px 0;
+}
+
+.blog-wrapper {
+    display: flex;
+}
+
+.single-blog img {
+    width: 95%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.single-blog {
+    margin: 15px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+
+
+
+.service-area{
+    padding: 70px 0;
+}
+.service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-service {
+    padding-bottom: 30px;
+    padding: 15px;
+}
+
+.single-service a img {
+    display: inline-block;
+    width: 279px;
+}
+
+.single-service h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+.single-service a {
+    text-decoration: none;
+}
+
+section.footer-area {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-area h2 {
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 0;
+}
